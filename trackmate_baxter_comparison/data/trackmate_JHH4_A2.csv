@@ -1,0 +1,7 @@
+tracker,tracks,seconds
+Simple LAP Tracker, 542, .1,
+Linear motion LAP tracker, 547, .1
+LAP Tracker, 389, .3
+Nearest neighbor search, 615, .1
+Old LAP Tracker, 352, 1.5
+Old Simple LAP tracker, 510, 0.3

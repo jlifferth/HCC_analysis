@@ -2,7 +2,7 @@ import os
 
 # this script searches downstream file and folder names and replaces spaces with underscores
 
-folder = '/Users/jonathanlifferth/Documents/Arbeit/Vanderbilt_Research_Analyst/Naotoshi_Nakamura/2_trackmate_results'
+folder = input('target : ')
 
 
 def replace_space(src_folder):

@@ -23,4 +23,4 @@ def clear_segmentation_tifs(src_folder):
     print(str(counter_2) + ' non-segmentations found')
 
 
-clear_segmentation_tifs(folder)
+# clear_segmentation_tifs(folder)

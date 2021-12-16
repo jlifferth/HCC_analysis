@@ -8,10 +8,11 @@ import sys
 # time script
 start = time.time()
 
+folder = sys.argv[1]
+# dst_folder = sys.argv[2]
+
 # rename all files and folders, replace '\s' with '_' so that file paths are compatible with headless
 # function when subprocess is called
-folder = '/Users/jonathanlifferth/Documents/Arbeit/Vanderbilt_Research_Analyst/' \
-         'Naotoshi_Nakamura/_original_images/PRF5/'
 
 
 def replace_space(src_folder):
@@ -57,7 +58,7 @@ for root, dirs, files in os.walk(folder):
 print('path string: ' + path_string)
 
 command = '/Applications/ilastik-1.4.0b15-OSX.app/Contents/ilastik-release/run_ilastik.sh' \
-                      ' --headless --project=/Users/jonathanlifferth/HCC_pipeline_0.ilp ' \
+                      ' --headless --project=/Users/jonathanlifferth/HCC_pipeline_1.ilp ' \
                       '--export_source="simple segmentation" ' + path_string
 
 subprocess.call(command, shell=True)
